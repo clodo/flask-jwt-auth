@@ -23,10 +23,10 @@ $ export APP_SETTINGS="project.server.config.ProductionConfig"
 
 ### Create DB
 
-Create the databases in `psql`:
+Create the databases in `mysql`:
 
 ```sh
-$ psql
+$ mysql -u root -p
 # create database flask_jwt_auth
 # create database flask_jwt_auth_testing
 # \q
